@@ -37,6 +37,8 @@ If this works for you, great!
 
 I tried it but it didn't handle 100% of the files (some were left behind and not moved to the output folder, and it's not clear to me whether it was because they were duplicates or there was some issue: there were indeed a bunch of warnings about files for which a date was not found), and more importantly I couldn't understand what it was doing, and I didn't want to lose any data.
 
+Edit: It turns out the repo actually (as of today 2025-12-17) has known issues wherein it fails to handle the current format of Takeout JSON; see e.g. [this search](https://github.com/search?q=repo%3ATheLastGimbus%2FGooglePhotosTakeoutHelper+supplemental&type=issues). There are PRs on the repo and presumably forks of this repo (which was last updated late 2025-Jan as of the time I'm writing this) that fix this problem, but that would explain why it didn't work for me.
+
 # This solution
 
 The scripts here in this repo are very crude, but at least I understand them, and they're very paranoid about not missing anything. (They were written with some combination of AI tools, but also read and edited by me manually.) They are organized as a succession of short, simple, easy-to-understand scripts:
